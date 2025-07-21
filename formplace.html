@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>fromplace</title>
+  <link rel="stylesheet" type="text/css" href="froms.css">
+</head>
+
+<body>
+    <div id="main">
+
+     <div id="nav">
+      <ul>
+     <li>Home</li>
+     <li>Coarsework</li>
+     <li>Resume</li>
+     <li>Hobbies</li>
+
+
+
+      </ul>
+
+
+
+
+
+
+
+
+
+     </div>  <!-- closes nav div -->
+
+     <div id="container"> <!-- Contains the form -->
+      <!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/xrblgbwj" method="POST">
+    <fieldset>
+        <legend>Customer Information</legend>
+  <label>
+    Name:
+    <input type="fullname" name="fullname">
+  </label>
+  <br>
+ <label>
+    Street Address:
+    <input type="address" name="address">
+  </label>
+    <br>
+  <label>
+    City:
+    <input type="City" name="City">
+  </label>
+    <br>
+  <label>
+    Postal Code:
+    <input type="input" name="intput">
+  </label>
+  <br>
+  <label>
+    State:
+    <input type="state" name="State">
+  </label>
+  <br>
+  <label>
+    Phone Number:
+    <input type="phonenum" name="PhoneNum">
+  </label>
+      <br>
+      <label>
+    Email:
+    <input type="email" name="email">
+  </label>
+  <br>
+  <label>             <!--This begins the select list  -->
+    Where did you hear about us?
+  <select>
+   <option value="commercial">Commercial</option>
+   <option value="billboard">Billboard</option>
+   <option value="internet">Internet</option>
+   <option value="magazine">Magazine</option>
+   </select>       <!--This ends the select list  -->
+   </label>
+       <br>
+     <label>
+    What's your favorite Red Ball special dish?
+    <input type="fav" name="fav">
+  </label>
+  <br>
+  <label>  <!--This is a spin box  -->
+      How many times do you dine out per month?
+      <input type="number" min="0" max="20" step="1"   value="1">
+  </label>   <br>
+
+  <!-- This is a checkbox -->
+   <label>
+      Add me to your newsletter for great specials
+      <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+  </label>   <br>
+
+     </fieldset>
+
+
+
+  <fieldset>
+            <legend>Share Your Experience at Reb Ball Pizza</legend>
+
+
+
+     <label for="visit"> Date of Visit</label>
+     <input type="date" id="visit" name="visit">   <br>
+
+     <label>             <!--This begins the select list  -->
+    Order Type
+  <select>
+   <option value="pepperoni">Pepperoni</option>
+   <option value="meatlovers">Meat Lovers</option>
+   <option value="internet">Supreme</option>
+   <option value="cheese">Cheese</option>
+   </select>       <!--This ends the select list  -->
+   </label>    <br>
+
+
+
+  <!-- <label>-->             <!--This begins the select list  -->
+    Was your service friendly?
+       <!--</label>-->
+    <input type="radio" name="service" id="service" value="service">Yes
+    <input type="radio" name="service" id="service" value="service">No
+    <br>
+
+    <label>
+     Tell us more about your experience:<br>
+     <textarea name="message" col="50" rows="5"> </textarea>
+ </label>
+
+
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+  </fieldset>
+</form>
+
+
+
+
+
+
+
+     </div> <!-- Contains the form -->
+
+
+
+
+    </div>  <!-- Closing of main div -->
+
+</body>
+
+</html>
