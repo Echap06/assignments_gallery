@@ -1,5 +1,5 @@
 body        {
-        background-image: url(dance/dance.jpg);
+        background-image: url("dance.jpg");
 
         font-size:14pt;
         margin:0;
