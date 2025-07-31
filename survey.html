@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Music Survey (Form)</title>
+   <link rel="stylesheet" type="text/css" href="survey.css">
+   <p>Survey Form</p>
+</head>
+
+<body>
+  <div id="header">
+      <p>Survey Form</p>
+  </div><!-- Header end -->
+<div id="container">
+      <form action="https://formspree.io/f/xrblgbwj" method="POST">
+  <label class="special">
+      <h2>Music Survey</h2>
+    Name:
+    <br>
+    <input type="name" name="name" placeholder="Enter your Full Name">   <!-- use as base -->
+  </label>
+  <br>
+  <br>
+    <label class="special">       <!-- Email -->
+    E-Mail:
+    <br>
+    <input type="email" name="email">
+  </label>
+  <br>
+     <br>
+     <fieldset>
+  <legend class="special">Select Your Favorite Types Of Music:</legend>
+
+  <input type="checkbox" id="pop" name="genre" value="pop">        <!-- pop -->
+  <label for="pop">Pop</label><br>
+
+  <input type="checkbox" id="classical" name="genre" value="classical">    <!-- classical -->
+  <label for="classical">Classical</label><br>
+
+  <input type="checkbox" id="rock" name="genre" value="rock">                  <!-- rock -->
+  <label for="rock">Rock</label><br>
+
+  <input type="checkbox" id="folk" name="genre" value="folk">                <!-- folk -->
+  <label for="folk">Folk</label><br>
+
+  <input type="checkbox" id="rap" name="genre" value="rap">                <!-- rap -->
+  <label for="rap">Rap</label><br>
+
+  <input type="checkbox" id="other" name="genre" value="other">              <!-- other -->
+  <label for="other">Other</label><br>
+
+</fieldset>       <!-- Fav music end----------------------------------------------------- -->
+       <br>
+<fieldset>
+  <legend class="special">Select how often you purchase Music CDs:</legend>
+
+  <input type="checkbox" id="weekly" name="cds" value="weekly">         <!-- weekly -->
+  <label for="weekly">Weekly</label><br>
+
+  <input type="checkbox" id="few" name="cds" value="few">                   <!-- A few a year -->
+  <label for="few">A few CDs each year</label><br>
+
+  <input type="checkbox" id="monthly" name="cds" value="monthly">            <!-- Monthly -->
+  <label for="monthly">Monthly</label><br>
+
+  <input type="checkbox" id="never" name="cds" value="never">              <!-- never -->
+  <label for="never">Never Purchased</label><br>
+
+</fieldset>    <!-- End CD amount list------------------------------------------------------------ -->
+
+         <br>
+      <label>             <!--This begins the select list  -->
+      <legend class="special">Select the locations you listen to Music:</legend>
+  <select>
+   <option value="home">At Home</option>
+   <option value="car">In the Car</option>
+   <option value="anywhere">Anywhere</option>
+   </select>       <!--This ends the select list  -->
+   </label>    <br>
+   <!-- ------------------------------------------------------------------------------ -->
+       <br>
+   <label class="special">
+     What role does music play in your life?<br>
+     <textarea name="message" cols="75" rows="10"> </textarea>
+ </label>
+     <!-- --------------------------------------------------------------------- -->
+
+       <br>
+
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+  <button type="reset">Reset</button>
+</form>
+
+
+
+
+
+
+
+
+
+</div><!-- Container end -->
+
+</body>
+
+</html>
